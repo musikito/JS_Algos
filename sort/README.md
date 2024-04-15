@@ -15,7 +15,7 @@ Array [0,1,2,3,4,5]
  
 Explanation: The sorted array in the ascending order would be: 0, 1, 2, 3, 4, 5
 
-We will use the built in function sort().
+<b>We will use the built in function sort().<b/>
 # sort.js
 ### Aproach
 1.- Declare the array. <br/>
