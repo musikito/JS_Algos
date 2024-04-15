@@ -1,4 +1,4 @@
-## Sort arrays with and without in-built functions
+# Sort arrays with and without in-built functions
 Problem Statement
 We are given an array of numbers and we need to arrange them in ascending order i.e., a smaller number followed by a higher number.
 
@@ -15,10 +15,22 @@ Array [0,1,2,3,4,5]
  
 Explanation: The sorted array in the ascending order would be: 0, 1, 2, 3, 4, 5
 
-<b>We will use the built in function sort().<b/>
-# sort.js
+**We will use the built in function sort().**
+## sort.js
 ### Aproach
 1.- Declare the array. <br/>
 2.- Call the array.sort() function. <br/>
 3.- Print the result to the console. <br/>
 
+**Implementation without the sort() function.**
+# [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+
+### Aproach (Pseudo code)
+    arr = [numbers]
+    bubbleSort(arr)
+        for loop arr.size()
+            if arr[index loop] > arr[index + 1]
+                swap(arr[index],arr[index+1])
+            end if
+        end for
+    return arr            
