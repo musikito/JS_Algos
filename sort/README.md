@@ -33,4 +33,15 @@ Explanation: The sorted array in the ascending order would be: 0, 1, 2, 3, 4, 5
                 swap(arr[index],arr[index+1])
             end if
         end for
-    return arr            
+    return arr      
+
+# [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+
+### Aproach (Pseudo code)
+    selectionSort(arr)
+        for loop i
+            for loop j
+                check for minIndex
+            swap elements
+    return arr
+    
