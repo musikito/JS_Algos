@@ -38,10 +38,29 @@ Explanation: The sorted array in the ascending order would be: 0, 1, 2, 3, 4, 5
 # [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
 
 ### Aproach (Pseudo code)
+    arr = [numbers]
     selectionSort(arr)
         for loop i
             for loop j
                 check for minIndex
             swap elements
     return arr
+
+# [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+
+### Aproach (Pseudo code)
+        arr = [numbers]
+        insertionSort(arr)
+            for loop to arr.length
+            key <- arr[i]
+            j <- i - 1
+
+            while loop j >=0 and arr[j] < key:
+                arr[j+1] <- arr[j]
+                j = j+1
+            end while loop
+            arr[j+1]<-key
+            end for loop
+
+            return arr
     
