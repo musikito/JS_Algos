@@ -1,3 +1,5 @@
+<img style="float: center;" src="/images/sorting-algos.jpeg">
+
 # Sort arrays with and without in-built functions
 Problem Statement
 We are given an array of numbers and we need to arrange them in ascending order i.e., a smaller number followed by a higher number.
@@ -22,8 +24,10 @@ Explanation: The sorted array in the ascending order would be: 0, 1, 2, 3, 4, 5
 2.- Call the array.sort() function. <br/>
 3.- Print the result to the console. <br/>
 
+
 **Implementation without the sort() function.**
 # [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+<img style="float: center;" src="/images/bubble-sort.png">
 
 ### Aproach (Pseudo code)
     arr = [numbers]
